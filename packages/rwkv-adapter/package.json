@@ -11,9 +11,9 @@
     ],
     "exports": {
         ".": {
-            "types": "./lib/index.d.ts",
             "import": "./lib/index.mjs",
-            "require": "./lib/index.cjs"
+            "require": "./lib/index.cjs",
+            "types": "./lib/index.d.ts"
         },
         "./package.json": "./package.json"
     },
